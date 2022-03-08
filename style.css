@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+body {
+  background-color: aquamarine;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  font-family: "Ubuntu", sans-serif;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  height: 65px;
+  background-color: black;
+  color: white;
+}
+nav ul li {
+  padding: 0px 12px;
+  font-size: 1.5rem;
+  align-self: center;
+}
+.brand img {
+  width: 65px;
+  padding: 0px 5px;
+}
+.brand {
+  align-items: center;
+  display: flex;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+.bottom {
+  position: Sticky;
+  height: 100px;
+  background-color: black;
+  color: white;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.icons {
+  margin-top: 10px;
+}
+.icons {
+  cursor: pointer;
+}
+.container {
+  min-height: 70vh;
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  margin: 23px auto;
+  width: 63%;
+  border-radius: 20px;
+  padding: 34px;
+  background-image: url("riya.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.songItemContainer {
+  margin-top: 60px;
+}
+#myProgressBar {
+  width: 65vw;
+  cursor: pointer;
+}
+.songItem {
+  height: 75px;
+  display: flex;
+  background-color: black;
+  width: 80%;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  align-items: center;
+  margin: 20px;
+  justify-content: space-between;
+}
+.songItem img {
+  margin: 3px;
+  width: 30%;
+  height: 100%;
+  border-radius: 90px;
+}
+.timestamp {
+  margin: 0 10px;
+}
+.timestamp i {
+  cursor: pointer;
+}
+.songInfo {
+  position: absolute;
+  left: 18vw;
+  top: 28px;
+  display: flex;
+}
+.songNameDisplay {
+  align-self: center;
+  padding: 5px 5px;
+}
+.songInfo img {
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
+}
+.fa-play-circle {
+  cursor: pointer;
+}
+.songItemPlay {
+  margin-left: 0.5rem;
+}
+#masterSongName {
+  font-size: 2rem;
+  margin: 1rem;
+}
+#masterSongNameContainer {
+  display: flex;
+  align-items: center;
+}
